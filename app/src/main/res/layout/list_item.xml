@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/RBookTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:text="Introduction to java" />
+
+    <TextView
+        android:id="@+id/RWriter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:textSize="18sp"
+        tools:text="mark janhom andas sdadsa" />
+
+    <TextView
+        android:id="@+id/RDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:textSize="18sp"
+        tools:text="mark janhom andas sdadsa" />
+
+</LinearLayout>
